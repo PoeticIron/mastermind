@@ -1,0 +1,23 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family:c
+}
+
+.pwbox{
+    margin-top:1rem;
+    width:3rem;
+    height:3rem;
+}
+
+.abox {
+    margin-top: 1rem;
+    width: 3rem;
+    height: 3rem;
+    text-transform:uppercase;
+}
+
+.correct{
+    border-color:#00ff21;
+}
+

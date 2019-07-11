@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+@foreach (string line in File.ReadAllLines("C:\\Users\\NStone\\source\\repos\\WebApplication2\\WebApplication2\\App_Data\\Data.txt"))
+{
+    @Html.ActionLink(line.Split(',')[0], line.Split(',')[0],"Home/IntPage");
+    <br />
+
+}
